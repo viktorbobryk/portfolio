@@ -1,0 +1,30 @@
+
+.head{
+	width:100%;
+	height:400px;
+	background-image:url("../img/island.png");
+	border:2px solid red;
+}
+.hello{
+	background:#ffffff;
+	border:2px solid red;
+	height:150px;
+}
+.nav{
+background-color:#eeeeee;
+border:2px solid red;
+height:350px;
+}
+.about{
+background-color:#eeeeee;
+border:2px solid red;
+height:350px;
+}
+.aforism{
+background-color:#616365;
+height:150px;
+}
+.skills{
+background-color:#393e42;
+height:500px;
+}
