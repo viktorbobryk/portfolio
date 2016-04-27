@@ -27,4 +27,80 @@ height:150px;
 .skills{
 background-color:#393e42;
 height:500px;
+position:relative;
 }
+.skills h2{
+font-size:25px;
+color:#ffffff;
+}
+.icon{
+position:relative;
+font-size:16px;
+color:#ffffff;
+text-align:center;
+border:1px solid red;
+height:460px;
+}
+.icon p,
+.icon h5{
+font-size:16px;
+color:#ffffff;
+}
+.wrapper-image img{
+
+ }
+ .logo{
+ border:1px solid red;
+  position:absolute;
+ top:30%;
+ left:25%;
+ }
+ .inner-image{
+ position:absolute;
+ top:18%;
+ left:22%
+ }
+ .work{
+ background-image:url("../img/Bg2.png");
+ }
+ .work h2{
+ margin-top:20px;
+ margin-bottom:20px;
+ color:#ffffff;
+ }
+ .wrapper{
+ border:1px solid red;
+ width:80%;
+ margin:0px auto;
+ }
+ .contact{
+ background-color:#393e42;
+ height:500px;
+ }
+ .contact h2{
+ margin-top:50px;
+ margin-bottom:50px;
+ font-size:20px;
+  color:#ffffff;
+ }
+ .map{
+ position:relative;
+ height:300px;
+ border:1px solid red;
+ background:url("../img/WorldMap.png") center no-repeat;
+ }
+ .map p{
+ color:#ffffff;
+ }
+ .map img{
+position:absolute;
+top:24%;
+left:50%;
+ }
+ .forma{
+ height:300px;
+ border:1px solid red;
+ }
+ .forma p{
+ color:#ffffff;
+ }
