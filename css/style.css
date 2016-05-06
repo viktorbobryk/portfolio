@@ -37,7 +37,7 @@
 }
 .foto{
 	position:absolute;
-	bottom:16%;
+	top:45%;
 	left:12%;
 	border-radius:50%;
 	z-index:1;
@@ -48,12 +48,28 @@
 	height:350px;
 }
 .nav ul{
-	float:right;
-	margin-right:25%;
+	margin-left:60%;
 	margin-top:40%;
 }
-.nav ul li{
+.nav ul li img{
 	padding:10px;
+	vertical-align:middle;
+}
+.nav li .circle{
+	background-image: url('../img/Ellipse-.png');
+	background-repeat: no-repeat;
+	background-position:left center;
+}
+.nav li .circle a{
+margin-left:30px;
+}
+.nav li .circle:hover{
+	background-image: url('../img/Ellipse.png');
+}
+.nav li .circle a:hover{
+	color:black;
+	font-weight:bold;
+	text-decoration:none;
 }
 .about{
 	background-color:#eeeeee;
@@ -212,16 +228,22 @@
 	color:#ffffff;
 	margin-bottom:20px;
  }
- .forma input{
+ .forma input[type="submit"]{
 	font-family:Helvetica Bold;
 	font-size:1.2em;
-	margin-left:45%;
+	margin-left:75%;
 	color:red;
 	border:none;
 	background:none;
  }
- .forma textarea{
+ .for input[type="text"]{
+    width: 85%;
+    padding: 4px 10px;
+    margin: 8px 0;
+	color:white;
 	background-color:#393e42;
-	color:#ffffff;
-	border:none;
- }
+    box-sizing: border-box;
+    border: none;
+    border-bottom: 2px solid white;
+}
+
