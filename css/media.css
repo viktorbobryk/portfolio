@@ -49,6 +49,10 @@ height:auto;
 .nav ul li{
 padding-bottom:20px;
 }
+.buttons{
+	position:absolute;
+	bottom:30px;
+}
 }
 
 /* Extra Small Devices, Phones */

@@ -1,26 +1,26 @@
 @font-face {
 	font-family:'helv-light';
 	src: url('fonts/helv-light.ttf') format('truetype'),
-	src: url('fonts/helv-light.woff') format('woff'),
-	src: url('fonts/helv-light.woff2') format('woff2'),
-	src: url('fonts/helv-light.eot') format('eot'),
-	src: url('fonts/helv-light.svg') format('svg');
+	url('fonts/helv-light.woff') format('woff'),
+	url('fonts/helv-light.woff2') format('woff2'),
+	url('fonts/helv-light.eot') format('eot'),
+	url('fonts/helv-light.svg') format('svg');
 }
 @font-face {
 	font-family:'helv-bold';
 	src: url('fonts/helv-bold.ttf') format('truetype'),
-	src: url('fonts/helv-bold.woff') format('woff'),
-	src: url('fonts/helv-bold.woff2') format('woff2'),
-	src: url('fonts/helv-bold.eot') format('eot'),
-	src: url('fonts/helv-bold.svg') format('svg');
+	url('fonts/helv-bold.woff') format('woff'),
+	url('fonts/helv-bold.woff2') format('woff2'),
+	url('fonts/helv-bold.eot') format('eot'),
+	url('fonts/helv-bold.svg') format('svg');
 }
 @font-face {
 	font-family:'helv-oblique';
 	src: url('fonts/helv-oblique.ttf') format('truetype'),
-	src: url('fonts/helv-oblique.woff') format('woff'),
-	src: url('fonts/helv-oblique.woff2') format('woff2'),
-	src: url('fonts/helv-oblique.eot') format('eot'),
-	src: url('fonts/helv-oblique.svg') format('svg');
+	url('fonts/helv-oblique.woff') format('woff'),
+	url('fonts/helv-oblique.woff2') format('woff2'),
+	url('fonts/helv-oblique.eot') format('eot'),
+	url('fonts/helv-oblique.svg') format('svg');
 }
 	.row{
 	margin-right:0px;
@@ -125,11 +125,7 @@ margin-left:30px;
 	background-repeat:no-repeat;
 	background-position:center;
 }
-.buttons li a:hover{
-cursor:pointer;
- box-shadow: 3px 3px grey;
-opacity:0.6;
-}
+
 .buttons li a.facebook{
 	background-image: url('../img/facebook.png');	
 }
@@ -138,6 +134,11 @@ opacity:0.6;
 }
 .buttons li a.github{
 	background-image: url('../img/github.png');	
+}
+.buttons ul li a:hover{
+cursor:pointer;
+box-shadow: 3px 3px grey;
+opacity:0.6;
 }
 .rad{
 	position:absolute;
