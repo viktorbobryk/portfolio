@@ -14,8 +14,9 @@
 
 	<!-- Optional theme -->
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap-theme.min.css" integrity="sha384-fLW2N01lMqjakBkx3l/M9EahuwpSfeNvV63J5ezn3uZzapT0u7EYsXMjQV+0En5r" crossorigin="anonymous">
-	<link rel="stylesheet" href="css/reset.css" />
-	<link rel="stylesheet" href="css/style.css" />
+	<link rel="stylesheet" type="text/css" href="css/reset.css" />
+	<link rel="stylesheet" type="text/css" href="css/style.css" />
+	<link rel="stylesheet" type="text/css" href="css/media.css"/>
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
@@ -36,7 +37,7 @@
 			</div>
 		</div>
 		<div class="row">
-			<div class="nav col-lg-4">
+			<div class="nav col-lg-4 col-md-4 col-sm-4">
 				<ul>
 					<li><div class="circle"><a href="#1">About</a></div></li>
 					<li><div class="circle"><a href="#2">Skills</a></div></li>
@@ -44,13 +45,15 @@
 					<li><div class="circle"><a href="#4">Contact</a></div></li>
 				</ul>
 			</div>
-			<div class="about col-lg-8" id="1">
+			<div class="about col-lg-8 col-md-8 col-sm-8" id="1">
 				<h2 class="pull-left">Hello <span>There</span></h2><br>
 				<p>some text some text some text some text some text some text some text some textsome text some text some text some textsome text some text some text some textsome text some text some text some textsome text some text some text some textsome text some text some text some text</p>
 				<div class="buttons">
-					<a class="btn btn-default"><img src="img/linkedin.png" alt="linkedin"/></a>
-					<a class="btn btn-default"><img src="img/dribble.png" alt ="dribble"/></a>
-					<a class="btn btn-default"><img src="img/instagram.png" alt="instagram"/></a>
+					<ul>
+						<li><a href="https://www.facebook.com/viktor.bobryk.7" target="blanc" class="facebook">&nbsp;</a></li>
+						<li><a href="https://www.linkedin.com/in/viktor-bobryk-44bb8327?trk=nav_responsive_tab_profile" target="blanc" class="linkedin">&nbsp;</a></li>
+						<li><a href="https://github.com/viktorbobryk" target="blanc" class="github">&nbsp;</a></li>
+					</ul>
 				</div>
 			</div>
 		</div>
@@ -64,7 +67,7 @@
 			<div class="skills col-lg-12" id="2">
 				<h2>skills</h2>
 				<div class="row">
-					<div class="icon col-sm-6 col-md-3 col-lg-3">
+					<div class="icon col-lg-3  col-md-3 col-sm-6 col-xs-12">
 						<div class="logo">
 							<div class="wrapper-image">
 								<img src="img/Ellipse1.png" alt="ellipse"/>
@@ -76,7 +79,7 @@
 							<p>pi-ai</p>
 						</div>
 					</div>
-					<div class="icon col-sm-6 col-md-3">
+					<div class="icon col-lg-3  col-md-3 col-sm-6 col-xs-12">
 						<div class="logo">
 							<div class="wrapper-image">
 								<img src="img/Ellipse1.png" alt="ellipse"/>
@@ -88,7 +91,7 @@
 							<p>html5, css, js</p>
 						</div>
 					</div>
-					<div class="icon col-sm-6 col-md-3">
+					<div class="icon col-lg-3  col-md-3 col-sm-6 col-xs-12">
 						<div class="logo">
 							<div class="wrapper-image">
 								<img src="img/Ellipse1.png" alt="ellipse"/>
@@ -100,7 +103,7 @@
 							<p>php</p>
 						</div>
 					</div>
-					<div class="icon col-sm-6 col-md-3">
+					<div class="icon col-lg-3  col-md-3 col-sm-6 col-xs-12">
 						<div class="logo">
 							<div class="wrapper-image">
 								<img src="img/Ellipse1.png" alt="ellipse"/>
@@ -120,17 +123,17 @@
 				<h2>work</h2>
 				<div class="wrapper">
 					<div class="row">
-						<div class="col-lg-3">
-							<a href="#"><img src="img/1.png" alt="firstwork"/></a>
+						<div class="col-lg-3 col-md-3 col-sm-6">
+							<a href="works/PEAA/index.html" target="blanc"><img src="img/1.png" alt="firstwork"/></a>
 						</div>
-						<div class="col-lg-3">
-							<a href="#"><img src="img/2.png" alt="secondwork"/></a>
+						<div class="col-lg-3 col-md-3 col-sm-6">
+							<a href="works/pattern-book-responsive/index.html" target="blanc"><img src="img/2.png" alt="secondwork"/></a>
 						</div>
-						<div class="col-lg-3">
-							<a href="#"><img src="img/3.png" alt="thirdwork"/></a>
+						<div class="col-lg-3 col-md-3 col-sm-6">
+							<a href="works/pattern-book/index.html" target="blanc"><img src="img/3.png" alt="thirdwork"/></a>
 						</div>
-						<div class="col-lg-3">
-							<a href="#"><img src="img/4.png" alt="fourthwork"/></a>
+						<div class="col-lg-3 col-md-3 col-sm-6">
+							<a href="works/favorite_1/index.html" target="blanc"><img src="img/4.png" alt="fourthwork"/></a>
 						</div>
 					</div>
 				
@@ -142,18 +145,18 @@
 			<div class=" contact col-lg-12" id="4">
 			<h2>contact</h2>
 				<div class="row">
-					<div class=" forma col-lg-6">
+					<div class=" forma col-lg-6 col-md-6">
 						<form>
-						<div class="for">
-							<p>viktor.bobryk@gmail.com</p>
-							<input type="text" name="message" value="Hello Viktor">
-							<input type="text" name="message">
-							<input type="text" name="message">
-							<input type="submit" value="send">
-						</div>
+							<div class="for">
+								<p>viktor.bobryk@gmail.com</p>
+								<input type="text" name="message" value="Hello Viktor">
+								<input type="text" name="message">
+								<input type="text" name="message">
+								<input type="submit" value="send">
+							</div>
 						</form>
 					</div>
-					<div class=" map col-lg-6">
+					<div class=" map col-lg-6 col-md-6">
 						<p>I live in <br><span>Rivne</span></p>
 						<img src="img/location.png" alt="location">
 					</div>
