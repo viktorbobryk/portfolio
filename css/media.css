@@ -3,15 +3,39 @@
 	background-color:#393e42;
 	height:auto;
  }
+ .contact .forma .for{
+ margin:0px auto;
+ padding-left:25px;
+ }
+ .contact input[type="submit"]{
+ margin-left:65%;
+ }
  .skills{
 	background-color:#393e42;
 	position:relative;
 	padding-left:0px;
 	padding-right:0px;
 }
+.buttons {
+    position: absolute;
+    bottom: 10px;
+}
+.buttons ul li:first-child{
+margin-left:0px;
+}
+.aboutme{
+padding-bottom:60px;
+}
+.skills h2{
+padding-top:15px;
+}
+.skills .icon{
+height:300px;
+}
 .aforism{
 	background-color:#616365;
 	height:auto;
+	padding:10px;
 }
 .foto{
 	position:absolute;
@@ -49,11 +73,13 @@ height:auto;
 .nav ul li{
 padding-bottom:20px;
 }
-.buttons{
-	position:absolute;
-	bottom:30px;
+.about{height:auto;
+}
+.work .wrapper div{
+padding:10px 10px 10px 4px;
 }
 }
+
 
 /* Extra Small Devices, Phones */
 @media only screen and (min-width : 480px) {
@@ -98,6 +124,9 @@ height:auto;
 .nav ul li{
 padding-bottom:20px;
 }
+.work .wrapper div{
+padding:10px 0px 10px 10px;
+}
 }
 
 /* Small Devices, Tablets */
@@ -125,7 +154,16 @@ padding-bottom:20px;
 	margin-top:0px;
 	margin-bottom:20px;
  }
-
+ .contact .forma .for{
+ margin:0px auto;
+ padding-left:65px;
+ }
+ .contact input[type="submit"]{
+ margin-left:77%;
+ }
+ .nav{
+ height:607px;
+ }
 .nav ul{
 	margin-left:60%;
 	margin-top:75%;
@@ -180,6 +218,9 @@ height:100%;
 	z-index:1;
 	border:10px solid white;
 }
+ .nav{
+ height:517px;
+ }
 .nav ul{
 	margin-left:60%;
 	margin-top:56%;
@@ -194,10 +235,21 @@ height:100%;
 width:100%;
 height:100%;
 }
+.head p{
+	font-size:20px;
+	font-weight:100;
+	color:#ffffff;
+	position:absolute;
+	top:30vw;
+	left:40vw;
+}
 }
 
  /* Large Devices, Wide Screens */
 @media only screen and (min-width : 1280px) {
+.nav{
+height:427px;
+}
 .nav ul{
 	margin-left:60%;
 	margin-top:40%;
@@ -212,5 +264,13 @@ height:100%;
 .foto img{
 width:100%;
 height:100%;
+}
+.head p{
+	font-size:20px;
+	font-weight:100;
+	color:#ffffff;
+	position:absolute;
+	top:30vw;
+	left:40vw;
 }
 }

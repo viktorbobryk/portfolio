@@ -66,6 +66,7 @@
 .nav{
 	background-color:#eeeeee;
 	height:350px;
+	border:3px solid red;
 }
 .nav ul{
 	margin-left:60%;
@@ -94,6 +95,7 @@ margin-left:30px;
 .about{
 	background-color:#eeeeee;
 	height:350px;
+	border:3px solid green;
 }
 .about h2{
 	font-family:helv-bold;
