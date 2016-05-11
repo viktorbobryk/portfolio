@@ -54,8 +54,8 @@ height:80px;
 	font-weight:100;
 	color:#ffffff;
 	position:absolute;
-	bottom:10vw;
-	left:29vw;
+	bottom:4vw;
+	left:30vw;
 }
 .head p span:first-child{
 	font-family:helv-light;
@@ -78,8 +78,44 @@ padding-bottom:20px;
 .work .wrapper div{
 padding:10px 10px 10px 4px;
 }
+ .logo{
+	position:absolute;
+	top:30%;
+	left:25%;
+ }
 }
-
+@media only screen and (min-width : 375px) {
+.logo{
+	position:absolute;
+	top:30%;
+	left:28%;
+ }
+ .head p {
+    font-family: helv-light;
+    font-size: 16px;
+    font-weight: 100;
+    color: #ffffff;
+    position: absolute;
+    bottom: 1vw;
+    left: 5vw;
+}
+}
+ @media only screen and (min-width : 425px) {
+.logo{
+	position:absolute;
+	top:30%;
+	left:31%;
+ }
+ .head p {
+    font-family: helv-light;
+    font-size: 16px;
+    font-weight: 100;
+    color: #ffffff;
+    position: absolute;
+    bottom: 2vw;
+    left: 6vw;
+}
+}
 
 /* Extra Small Devices, Phones */
 @media only screen and (min-width : 480px) {
@@ -107,12 +143,18 @@ padding:10px 10px 10px 4px;
 }
 .head p{
 	font-family:helv-light;
-	font-size:18px;
+	font-size:20px;
 	font-weight:100;
 	color:#ffffff;
 	position:absolute;
 	bottom:10vw;
 	left:28vw;
+}
+.head p span:first-child{
+	font-family:helv-light;
+	font-size:32px;
+	font-weight:100;
+	color:#ffffff;
 }
 .nav{
 height:auto;
@@ -127,6 +169,11 @@ padding-bottom:20px;
 .work .wrapper div{
 padding:10px 0px 10px 10px;
 }
+ .logo{
+	position:absolute;
+	top:30%;
+	left:30%;
+ }
 }
 
 /* Small Devices, Tablets */
@@ -144,8 +191,8 @@ padding:10px 0px 10px 10px;
 	font-weight:100;
 	color:#ffffff;
 	position:absolute;
-	top:10vw;
-	left:17vw;
+	top:28vw;
+	left:45vw;
 }
  .contact h2{
 	font-family:helv-light;
@@ -162,7 +209,7 @@ padding:10px 0px 10px 10px;
  margin-left:77%;
  }
  .nav{
- height:607px;
+ height:551px;
  }
 .nav ul{
 	margin-left:60%;
@@ -219,7 +266,7 @@ height:100%;
 	border:10px solid white;
 }
  .nav{
- height:517px;
+ height:443px;
  }
 .nav ul{
 	margin-left:60%;
@@ -248,7 +295,7 @@ height:100%;
  /* Large Devices, Wide Screens */
 @media only screen and (min-width : 1280px) {
 .nav{
-height:427px;
+height:416px;
 }
 .nav ul{
 	margin-left:60%;

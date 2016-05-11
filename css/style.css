@@ -22,11 +22,15 @@
 	url('fonts/helv-oblique.eot') format('eot'),
 	url('fonts/helv-oblique.svg') format('svg');
 }
-	.row{
+body{
+	font-size:18px;
+	line-height:1.5;
+}
+.row{
 	margin-right:0px;
 	margin-left:0px;
 }
-	.head{
+.head{
 	position:relative;
 	width:100%;
 	height:37vw;
@@ -66,7 +70,6 @@
 .nav{
 	background-color:#eeeeee;
 	height:350px;
-	border:3px solid red;
 }
 .nav ul{
 	margin-left:60%;
@@ -95,7 +98,6 @@ margin-left:30px;
 .about{
 	background-color:#eeeeee;
 	height:350px;
-	border:3px solid green;
 }
 .about h2{
 	font-family:helv-bold;
@@ -107,6 +109,10 @@ margin-left:30px;
 }
 .about p{
 	clear:left;
+	padding-bottom:20px;
+}
+.about p:last-child{
+	padding-bottom:30px;
 }
 
 .buttons{
