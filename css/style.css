@@ -25,7 +25,9 @@
 body{
 	font-size:18px;
 	line-height:1.5;
+	background-color:#eeeeee;
 }
+/* header */
 .row{
 	margin-right:0px;
 	margin-left:0px;
@@ -67,6 +69,7 @@ body{
 	z-index:1;
 	border:10px solid white;
 }
+/* nav */
 .nav{
 	background-color:#eeeeee;
 	height:350px;
@@ -95,6 +98,7 @@ body{
 	font-weight:bold;
 	text-decoration:none;
 }
+/* about */
 .about{
 	background-color:#eeeeee;
 	height:350px;
@@ -135,24 +139,20 @@ body{
 }
 
 .buttons li a.facebook{
-	background-image: url('../img/facebook.png');	
+	background-image: url('../img/facebook.png');
 }
 	.buttons li a.linkedin{
-	background-image: url('../img/linkedin2.png');	
+	background-image: url('../img/linkedin2.png');
 }
 	.buttons li a.github{
-	background-image: url('../img/github.png');	
+	background-image: url('../img/github.png');
 }
 .buttons ul li a:hover{
 	cursor:pointer;
-	box-shadow: 3px 3px grey;
-	opacity:0.6;
+	box-shadow: 3px 3px gray;
+	opacity:0.7;
 }
-.rad{
-	position:absolute;
-	bottom:50px;
-	right:30%;
-}
+/* aforism */
 .aforism{
 	background-color:#616365;
 	height:150px;
@@ -177,6 +177,7 @@ body{
 	font-family:helv-bold;
 	color:#ffffff;
 }
+/* skills */
 .skills{
 	background-color:#393e42;
 	height:500px;
@@ -217,7 +218,7 @@ body{
 	top:21%;
 	left:28%
  }
- 
+ /* work */
  .work{
 	background-image:url("../img/Bg2.png");
  }
@@ -232,6 +233,17 @@ body{
 	width:80%;
 	margin:0px auto;
  }
+ .work .wrapper .pos img{
+	border:none;
+	opacity:1.0;
+	filter:alpha(opacity=40); 
+ }
+ .work .wrapper .pos img:hover {
+	border:2px solid white;
+	opacity:0.7;
+	filter:alpha(opacity=100);
+}
+/* contact */
  .contact{
 	background-color:#393e42;
 	height:400px;
@@ -263,25 +275,25 @@ body{
 	top:17%;
 	left:55%;
  }
-	.map p span{
+.map p span{
 	font-family:helv-light;
 	font-size:1.2em;
 	color:#ffffff;
  }
-	.forma{
+.forma{
 	height:300px;
  }
-	.for{
+.for{
 	margin-top:20px;
 	margin-left:17%;
  }
-	.forma p{
+.forma p{
 	font-family:helv-light;
 	font-size:1.2em;
 	color:#ffffff;
 	margin-bottom:20px;
  }
-	.forma input[type="submit"]{
+.forma input[type="submit"]{
 	font-family:helv-bold;
 	font-size:1.2em;
 	margin-left:75%;
@@ -289,7 +301,10 @@ body{
 	border:none;
 	background:none;
  }
-	.for input[type="text"]{
+.forma input[type="submit"]:hover{
+	border:2px solid white;
+ }
+.for input[type="text"]{
 	width: 85%;
 	padding: 4px 10px;
 	margin: 8px 0;
