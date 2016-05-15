@@ -69,14 +69,18 @@ body{
 	font-size:40px;
 	font-weight:bold;
 	color:#ffffff;
+	padding-left:10px;
+	padding-right:10px;
 }
 .foto{
 	position:absolute;
-	top:32vw;
-	left:12vw;
+	top:calc(100% - 115px);
+	left:12%;
 	border-radius:50%;
 	z-index:1;
 	border:10px solid white;
+	height:230px;
+	width:230px;
 }
 /* nav */
 .nav{
@@ -202,7 +206,6 @@ body{
 }
 .skills .icon{
 	background-color:#393e42;
-	position:relative;
 	font-size:16px;
 	color:#ffffff;
 	text-align:center;
@@ -212,27 +215,31 @@ body{
 	font-family:helv-bold;
 	font-size:1.6em;
 	color:#ffffff;
+	padding-top:25px;
 }
 .skills .icon p{
 	font-family:helv-light;
 	font-size:1em;
 	color:#ffffff;
 }
-.skills .logo{ 
- margin:60px auto 5px;
- vertical-align:middle;
- height:210px;
- position:relative;
- }
+.skills .logo{
+width:154px;
+height:154px;
+border:2px solid white;
+border-radius:50%;
+position:relative;
+}
 .skills .logo .inner-image{
- position:absolute;
- top:22%;
- left:40%;
- }
+width:60px;
+height:60px;
+position:absolute;
+top:calc(50% - 30px);
+left:calc(50% - 30px);
+}
  }
  /* work */
  .work{
-	background-color:red;
+	background-image:url("../img/Bg2.png");
  }
  .work h2{
 	font-family:helv-light;

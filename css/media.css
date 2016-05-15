@@ -1,30 +1,34 @@
 @media only screen and (min-width : 320px) {
-
+.head{
+	text-align:center;
+}
 .head p{
 	font-family:helv-light;
 	font-size:16px;
 	font-weight:100;
 	color:#ffffff;
 	position:absolute;
-	bottom:4vw;
-	left:30vw;
+	bottom:1%;
+	left:3%;
 }
-.head p span:first-child{
-	font-family:helv-light;
-	font-size:30px;
-	font-weight:100;
-	color:#ffffff;
+.head p span:last-child{
+	visibility:hidden;
 }
 .foto{
 	position:absolute;
-	top:0px;
-	left:0px;
+	top:calc(35% - 40px);
+	left:calc(50% - 40px);
+	border-radius:50%;
 	z-index:1;
 	border:5px solid white;
-}
-.foto img{
-	width:80px;
 	height:80px;
+	width:80px;
+}
+.head p span:first-child{
+	font-family:helv-light;
+	font-size:20px;
+	font-weight:100;
+	color:#ffffff;
 }
 .nav{
 	height:auto;
@@ -59,17 +63,16 @@
 }
 .skills .icon{
 	height:250px;
+	padding-top:20px;
 }
-.skills .logo .inner-image{
- position:absolute;
- top:23%;
- left:39%;
- }
 .aforism{
 	background-color:#616365;
 	height:auto;
 	padding:10px;
 }
+ .work{
+	background-image:url("../img/Bg2.png");
+ }
  .work .pos{
 	text-align:center;
 	padding-left:10px;
@@ -100,15 +103,10 @@
 	font-size: 16px;
 	font-weight: 100;
 	color: #ffffff;
-	position: absolute;
-	bottom: 1vw;
-	left: 5vw;
+	position:absolute;
+	bottom:2%;
+	left:9%;
 }
-.skills .logo .inner-image{
- position:absolute;
- top:23%;
- left:41%;
- }
 .contact input[type="submit"]{
 	margin-left:62%;
  }
@@ -117,26 +115,28 @@
 @media only screen and (min-width : 425px) {
 .head p{
 	font-family:helv-light;
-	font-size:20px;
+	font-size:18px;
 	font-weight:100;
 	color:#ffffff;
 	position:absolute;
-	bottom:2vw;
-	left:6vw;
-}
-.head p span:first-child{
-	font-family:helv-light;
-	font-size:32px;
-	font-weight:100;
-	color:#ffffff;
+	bottom:2%;
+	left:8%;
 }
 .foto{
 	position:absolute;
-	top:0vw;
-	left:0vw;
+	top:calc(35% - 60px);
+	left:calc(50% - 60px);
 	border-radius:50%;
 	z-index:1;
 	border:5px solid white;
+	height:120px;
+	width:120px;
+}
+.head p span:first-child{
+	font-family:helv-light;
+	font-size:26px;
+	font-weight:100;
+	color:#ffffff;
 }
 .nav{
 	height:auto;
@@ -154,18 +154,6 @@
 	padding-left:0px;
 	padding-right:0px;
 }
-.skills .pos{
-text-align:center;
-}.skills .logo .inner-image{
- position:absolute;
- top:23%;
- left:42%;
- }
- .skills .logo .inner-image{
- position:absolute;
- top:23%;
- left:42%;
- }
 .aforism{
 	background-color:#616365;
 	height:auto;
@@ -186,12 +174,6 @@ text-align:center;
  }
 }
 
-@media only screen and (min-width: 500px){
-}
-
-@media only screen and (min-width: 600px){
-}
-
 /* Small Devices, Tablets */
 @media only screen and (min-width : 768px) {
 .head p{
@@ -202,17 +184,18 @@ text-align:center;
 	top:28vw;
 	left:45vw;
 }
+.head p span:last-child{
+	visibility:visible;
+}
 .foto{
 	position:absolute;
-	top:22vw;
-	left:12vw;
+	top:calc(100% - 115px);
+	left:12%;
 	border-radius:50%;
 	z-index:1;
 	border:10px solid white;
-}
-.foto img{
-	height:170px;
-	width:170px;
+	height:230px;
+	width:230px;
 }
 .nav{
 	height:551px;
@@ -227,18 +210,20 @@ text-align:center;
 .skills{
 	background-color:#393e42;
 	position:relative;
-	padding-left:0px;
-	padding-right:0px;
+	padding-left:60px;
+	padding-right:60px;
+	height:620px;
 }
 .skills .icon{
 	height:260px;
+	padding-top:20px;
 }
 .work .wrapper .pos img{
-	width:180px;
-	height:180px;
+	width:219px;
+	height:219px;
 }
 .work .wrapper{
-	width:85%;
+	width:95%;
 	margin:0px auto;
 	padding:10px;
  }
@@ -279,18 +264,6 @@ text-align:center;
 	top:30vw;
 	left:40vw;
 }
-.foto{
-	position:absolute;
-	top:25vw;
-	left:12vw;
-	border-radius:50%;
-	z-index:1;
-	border:10px solid white;
-}
-.foto img{
-	width:190px;
-	height:190px;
-}
 .nav{
 	height:443px;
  }
@@ -298,18 +271,17 @@ text-align:center;
 	margin-left:60%;
 	margin-top:56%;
 }
+.skills{
+	height:500px;
+}
 .skills .icon{
 	height:300px;
 	text-align:center;
-} 
-.skills .logo .inner-image{
- position:absolute;
- top:23%;
- left:36%;
- }
+	padding-top:80px;
+}
 .work .wrapper .pos img{
-	width:155px;
-	height:155px;
+	width:170px;
+	height:170px;
 }
 .contact input[type="submit"]{
 	margin-left:68%;
@@ -326,18 +298,6 @@ text-align:center;
 	position:absolute;
 	top:30vw;
 	left:40vw;
-}
-.foto{
-	position:absolute;
-	top:28vw;
-	left:12vw;
-	border-radius:50%;
-	z-index:1;
-	border:10px solid white;
-}
-.foto img{
-	width:100%;
-	height:100%;
 }
 .nav{
 	height:416px;
