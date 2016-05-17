@@ -1,4 +1,4 @@
-@media only screen and (min-width : 320px) {
+@media only screen and (min-width : 320px) and (max-width : 374px) {
 .head{
 	text-align:center;
 }
@@ -30,16 +30,25 @@
 	font-weight:100;
 	color:#ffffff;
 }
-.nav{
-	height:auto;
-}
-.nav ul{
-	margin-left:40%;
-	margin-top:10%;
-}
-.nav ul li{
-	padding-bottom:20px;
-}
+ul.topnav li:not(:first-child) {display: none;}
+  ul.topnav li.ico {
+    float: right;
+    display: inline-block;
+  }
+  ul.topnav.responsive {position: relative;}
+  ul.topnav.responsive li.ico {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  ul.topnav.responsive li {
+    float: none;
+    display: inline;
+  }
+  ul.topnav.responsive li a {
+    display: block;
+    text-align: left;
+  }
 .about{height:auto;
 }
 .about .aboutme{
@@ -97,7 +106,7 @@
  }
 }
 
-@media only screen and (min-width : 375px) {
+@media only screen and (min-width : 375px) and (max-width : 424px){
 .head p {
 	font-family: helv-light;
 	font-size: 16px;
@@ -107,12 +116,43 @@
 	bottom:2%;
 	left:9%;
 }
+ul.topnav li:not(:first-child) {display: none;}
+  ul.topnav li.ico {
+    float: right;
+    display: inline-block;
+  }
+  ul.topnav.responsive {position: relative;}
+  ul.topnav.responsive li.ico {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  ul.topnav.responsive li {
+    float: none;
+    display: inline;
+  }
+  ul.topnav.responsive li a {
+    display: block;
+    text-align: left;
+  }
+.foto{
+	position:absolute;
+	top:calc(35% - 40px);
+	left:calc(50% - 40px);
+	border-radius:50%;
+	z-index:1;
+	border:5px solid white;
+	height:80px;
+	width:80px;
+}
+
 .contact input[type="submit"]{
 	margin-left:62%;
  }
+ 
 }
 /* Extra Small Devices, Phones */
-@media only screen and (min-width : 425px) {
+@media only screen and (min-width : 425px) and (max-width : 767px) {
 .head p{
 	font-family:helv-light;
 	font-size:18px;
@@ -138,16 +178,7 @@
 	font-weight:100;
 	color:#ffffff;
 }
-.nav{
-	height:auto;
-}
-.nav ul{
-	margin-left:40%;
-	margin-top:10%;
-}
-.nav ul li{
-	padding-bottom:20px;
-}
+
 .skills{
 	background-color:#393e42;
 	position:relative;
@@ -198,11 +229,39 @@
 	width:230px;
 }
 .nav{
+	background-color:#eeeeee;
+	font-family:helv-light;
 	height:551px;
  }
 .nav ul{
+    background-color:#eeeeee;
 	margin-left:60%;
 	margin-top:75%;
+	color:black;
+}
+.nav ul li img{
+	padding:10px;
+	vertical-align:middle;
+}
+.nav li .circle{
+	background-image: url('../img/Ellipse-.png');
+	background-repeat: no-repeat;
+	background-position:left center;
+}
+.nav li .circle a{
+	margin-left:30px;
+}
+.nav li .circle:hover{
+	background-image: url('../img/Ellipse.png');
+}
+.nav li .circle a:hover{
+	color:black;
+	font-weight:bold;
+	text-decoration:none;
+}
+ul.topnav li a:hover {background-color: #eeeeee;}
+ul.topnav li a {
+color:#111111;
 }
 .about{
 	padding-left:70px;

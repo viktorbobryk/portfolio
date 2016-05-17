@@ -83,47 +83,31 @@ body{
 	width:230px;
 }
 /* nav */
-.nav{
-	background-color:#eeeeee;
-	height:350px;
-	font-family:helv-light;
+.menu{padding:0px;
 }
-.nav ul{
-	margin-left:60%;
-	margin-top:40%;
+ul.topnav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
 }
-.nav ul li img{
-	padding:10px;
-	vertical-align:middle;
+ul.topnav li {float: left;}
+ul.topnav li a {
+    display: inline-block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    transition: 0.3s;
+    font-size: 17px;
 }
-.nav li .circle{
-	background-image: url('../img/Ellipse-.png');
-	background-repeat: no-repeat;
-	background-position:left center;
-}
-.nav li .circle a{
-	margin-left:30px;
-}
-.nav li .circle:hover{
-	background-image: url('../img/Ellipse.png');
-}
-.nav li .circle a:hover{
-	color:black;
-	font-weight:bold;
-	text-decoration:none;
-}
+ul.topnav li a:hover {background-color: #111;}
+ul.topnav li.ico {display: none;}
 /* about */
 .about{
 	background-color:#eeeeee;
 	height:350px;
-}
-.about h2{
-	font-family:helv-bold;
-	font-size:60px;
-}
-.about h2 span{
-	font-family:helv-light;
-	font-size:60px;
 }
 .about p{
 	clear:left;

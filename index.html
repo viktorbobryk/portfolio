@@ -34,16 +34,20 @@
 			</div>
 		</div>
 		<div class="row">
-			<div class="nav col-lg-4 col-md-4 col-sm-4 col-xs-12">
-				<ul>
-					<li><div class="circle"><a href="#1">About</a></div></li>
-					<li><div class="circle"><a href="#2">Skills</a></div></li>
-					<li><div class="circle"><a href="#3">Work</a></div></li>
-					<li><div class="circle"><a href="#4">Contact</a></div></li>
-				</ul>
+			<div class=" menu col-lg-4 col-md-4 col-sm-4 col-xs-12">
+				<div class="nav">
+					<ul class="topnav">
+						<li><div class="circle"><a href="#1">About</a></div></li>
+						<li><div class="circle"><a href="#2">Skills</a></div></li>
+						<li><div class="circle"><a href="#3">Work</a></div></li>
+						<li><div class="circle"><a href="#4">Contact</a></div></li>
+						<li class="ico">
+							<a href="javascript:void(0);" onclick="myFunction()">&#9776;</a>
+						 </li>
+					</ul>
+				</div>
 			</div>
 			<div class="about col-lg-8 col-md-8 col-sm-8 col-xs-12"  id="1">
-				<h2 class="pull-left">Hello <span>There</span></h2><br>
 				<div class="aboutme">
 					<p>My name is Viktor, I am web UI developer.A few words about me: </p>
 					<p>I'm just starting to make sites and have little experience but I can easy find myself in the team and create an atmosphere of mutual support, trust and undertstanding</p>
@@ -153,6 +157,12 @@
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous">
+</script>
+<script>
+function myFunction() {
+    document.getElementsByClassName("topnav")[0].classList.toggle("responsive");
+}
+</script>
   </body>
 </html>
