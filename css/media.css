@@ -322,12 +322,18 @@ ul.topnav li:not(:first-child) {display: none;}
 /* Small Devices, Tablets */
 @media only screen and (min-width : 768px) {
 .head p{
-	font-size:20px;
+	font-size:16px;
 	font-weight:100;
 	color:#ffffff;
 	position:absolute;
 	top:28vw;
 	left:45vw;
+}
+.head p span:first-child{
+	font-size:30px;
+}
+.head p span:nth-child(2){
+	font-size:30px;
 }
 .head p span:last-child{
 	visibility:visible;
@@ -396,6 +402,10 @@ color:#111111;
  .work{
 	background-image:url("../img/Bg2.png");
  }
+ .work .wrapper .pos{
+ padding:5px 0px 5px 5px;
+ text-align:center;
+ }
 .work .wrapper .pos img{
 	width:219px;
 	height:219px;
@@ -403,7 +413,7 @@ color:#111111;
 .work .wrapper{
 	width:95%;
 	margin:0px auto;
-	padding:10px;
+	padding:10px 10px 25px 10px;
  }
  .contact{
 	background-color:#393e42;
@@ -441,6 +451,12 @@ color:#111111;
 	position:absolute;
 	top:30vw;
 	left:40vw;
+}
+.head p span:first-child{
+	font-size:40px;
+}
+.head p span:nth-child(2){
+	font-size:40px;
 }
 .nav{
 	height:500px;
@@ -496,7 +512,7 @@ color:#111111;
 	width:219px;
 	height:219px;
 }
-.contact input[type="submit"]{
+.contact forma input[type="submit"]{
 	margin-left:74%;
 }
 }
