@@ -41,24 +41,24 @@
 	opacity:0.85;
 }
 ul.topnav li:not(:first-child) {display: none;}
-  ul.topnav li.ico {
-    float: right;
-    display: inline-block;
+ul.topnav li.ico {
+	float: right;
+	display: inline-block;
   }
-  ul.topnav.responsive {position: relative;}
-  ul.topnav.responsive li.ico {
-    position: absolute;
-    right: 0;
-    top: 0;
-  }
-  ul.topnav.responsive li {
-    float: none;
-    display: inline;
-  }
-  ul.topnav.responsive li a {
-    display: block;
-    text-align: left;
-  }
+ul.topnav.responsive {position: relative;}
+ul.topnav.responsive li.ico {
+	position: absolute;
+	right: 0;
+	top: 0;
+}
+ul.topnav.responsive li {
+	float: none;
+	display: inline;
+}
+ul.topnav.responsive li a {
+	display: block;
+	text-align: left;
+}
 .about{height:auto;
 }
 .about .aboutme{
@@ -149,27 +149,27 @@ ul.topnav li:not(:first-child) {display: none;}
 	opacity:0.85;
 }
 ul.topnav li:not(:first-child) {display: none;}
-  ul.topnav li.ico {
-    float: right;
-    display: inline-block;
-  }
-  ul.topnav.responsive {position: relative;}
-  ul.topnav.responsive li.ico {
-    position: absolute;
-    right: 0;
-    top: 0;
-  }
-  ul.topnav.responsive li {
+ul.topnav li.ico {
+	float: right;
+	display: inline-block;
+}
+ul.topnav.responsive {position: relative;}
+ul.topnav.responsive li.ico {
+	position: absolute;
+	right: 0;
+	top: 0;
+}
+ ul.topnav.responsive li {
     float: none;
     display: inline;
   }
   ul.topnav.responsive li a {
-    display: block;
-    text-align: left;
-  }
-  .about{
+	display: block;
+	text-align: left;
+}
+.about{
 	height:620px;
-  }
+}
 .foto{
 	position:absolute;
 	top:calc(35% - 40px);
@@ -190,7 +190,7 @@ ul.topnav li:not(:first-child) {display: none;}
  .work{
 	background-image:url("../img/Bg2.png");
  }
-  .work .pos{
+.work .pos{
 	text-align:center;
 	padding-left:7px;
 	padding-bottom:15px;
@@ -202,7 +202,6 @@ ul.topnav li:not(:first-child) {display: none;}
 .contact .forma input[type="submit"]{
 	margin-left:62%;
  }
- 
 }
 /* Extra Small Devices, Phones */
 @media only screen and (min-width : 425px) and (max-width : 767px) {
