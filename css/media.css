@@ -39,6 +39,7 @@
 	width:100%;
 	z-index:10;
 	opacity:0.85;
+	font-family:helv-light;
 }
 ul.topnav li:not(:first-child) {display: none;}
 ul.topnav li.ico {
@@ -147,6 +148,7 @@ ul.topnav.responsive li a {
 	width:100%;
 	z-index:10;
 	opacity:0.85;
+	font-family:helv-light;
 }
 ul.topnav li:not(:first-child) {display: none;}
 ul.topnav li.ico {
@@ -250,6 +252,7 @@ ul.topnav.responsive li.ico {
 	width:100%;
 	z-index:10;
 	opacity:0.85;
+	font-family:helv-light;
 }
 .about{
 	height:600px;
