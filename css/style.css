@@ -36,6 +36,11 @@ body{
 	line-height:1.5;
 	background-color:#eeeeee;
 }
+.nopadding{
+padding-left:0px;
+padding-right:0px;
+padding-bottom:0px;
+}
 /* header */
 .row{
 	margin-right:0px;
@@ -330,6 +335,6 @@ position:relative;
     cursor: pointer;
     position: fixed;
     bottom: 25px;
-    right: 20px;
+    right: 25px;
     display: none;
 }

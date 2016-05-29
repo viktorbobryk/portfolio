@@ -100,7 +100,7 @@ ul.topnav.responsive li a {
 }
 .contact{
 	background-color:#393e42;
-	height:730px;
+	height:auto;
 }
 .contact .forma .for{
 	margin:0px auto;
@@ -170,7 +170,7 @@ ul.topnav.responsive li.ico {
 	text-align: left;
 }
 .about{
-	height:620px;
+	height:auto;
 }
 .foto{
 	position:absolute;
@@ -199,7 +199,7 @@ ul.topnav.responsive li.ico {
 }
 .contact{
 	background-color:#393e42;
-	height:730px;
+	height:auto;
 }
 .contact .forma input[type="submit"]{
 	margin-left:62%;
@@ -255,7 +255,7 @@ ul.topnav.responsive li.ico {
 	font-family:helv-light;
 }
 .about{
-	height:600px;
+	height:auto;
 }
 .about .buttons{
 	
@@ -325,13 +325,13 @@ ul.topnav.responsive li.ico {
 .nav{
 	background-color:#eeeeee;
 	font-family:helv-light;
-	height:550px;
+	height:400px;
  }
 .nav ul{
 	position:absolute;
-	bottom:32px;
+	top:32%;
     background-color:#eeeeee;
-	margin-left:60%;
+	margin-left:56%;
 	color:black;
 }
 .nav ul li img{
@@ -360,7 +360,7 @@ color:#111111;
 }
 .about{
 	padding-left:70px;
-	height:550px;
+	height:500px;
 }
 .skills{
 	background-color:#393e42;
@@ -405,7 +405,7 @@ color:#111111;
 	padding-left:65px;
  }
 .contact input[type="submit"]{
-	margin-left:75%;
+	margin-left:70%;
  }
 .contact .map p{
 	font-family:helv-light;
@@ -433,15 +433,16 @@ color:#111111;
 	font-size:40px;
 }
 .nav{
-	height:500px;
+	height:400px;
  }
 .nav ul{
 	position:absolute;
 	bottom:32px;
+	width:151px;
 }
 .about{
 	padding-left:70px;
-	height:500px;
+	height:400px;
 }
 .skills{
 	height:500px;
@@ -456,7 +457,7 @@ color:#111111;
 	height:170px;
 }
 .contact .forma input[type="submit"]{
-	margin-left:69%;
+	margin-left:72%;
  }
 }
 
@@ -477,16 +478,17 @@ color:#111111;
 .nav ul{
 	position:absolute;
 	bottom:32px;
+	margin-left:48%;
 }
 .about{
 	background-color:#eeeeee;
-	height:400px;
+	height:350px;
 }
 .work .wrapper .pos img{
 	width:219px;
 	height:219px;
 }
 .contact forma input[type="submit"]{
-	margin-left:74%;
+	margin-left:80%;
 }
 }
